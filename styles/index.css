@@ -144,11 +144,11 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  object-fit: cover;
 }
 .galery img {
-  width: 300px;
-  height: auto;
+  object-fit: cover;
+  width: 400px;
+  height: 220px;
 }
 .galery a {
   color: rgba(148, 90, 195);
