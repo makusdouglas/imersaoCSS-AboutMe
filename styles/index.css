@@ -146,8 +146,7 @@ body {
   gap: 10px;
 }
 .galery img {
-  object-fit: cover;
-  width: 400px;
+  width: 300px;
   height: 220px;
 }
 .galery a {
@@ -159,6 +158,8 @@ body {
   overflow: hidden;
 }
 .around-image img {
+  object-position: left;
+  object-fit: cover;
   transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .around-image img:hover {
