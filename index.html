@@ -12,9 +12,9 @@
   <header>
     <nav class="nav-bar">
       <ul>
-        <li><a href="http://">Sobre</a></li>
-        <li><a href="http://">Portifólio</a></li>
-        <li><a href="http://">Contato</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portifolio">Portifólio</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -28,7 +28,7 @@
         </ul>
       </nav> -->
     <div class="div-main-ajustment">
-      <main class="main-content">
+      <main id="sobre" class="main-content">
         <h1>Sobre mim</h1>
 
         <div class="content">
@@ -59,7 +59,7 @@
             </ul>
         </div>
       </main>
-      <main class="main-content">
+      <main id ="portifolio" class="main-content">
         <h1>Portifólio</h1>
 
         <div class="content">
@@ -90,25 +90,25 @@
             </figure>
             <figure class="around-image">
               <img src="assets/images/ux-design.jpg" alt="Aprendendo Design UX">
-              <a href="#">
+              <a href="">
                 <figcaption>Aprendendo Design UX</figcaption>
               </a>
             </figure>
             <figure class="around-image">
               <img src="assets/images/reactnavite.png" alt="Jr. em React Native">
-              <a href="#">
+              <a href="">
                 <figcaption>Jr. em React Native</figcaption>
               </a>
             </figure>
             <figure class="around-image">
               <img src="assets/images/reactjs.jpg" alt="Jr. em React JS">
-              <a href="#">
+              <a href="">
                 <figcaption>Jr. em React JS</figcaption>
               </a>
             </figure>
             <figure class="around-image">
               <img src="assets/images/nodejs.png" alt="Jr. em Node.js">
-              <a href="#">
+              <a href="">
                 <figcaption>Jr. em Node.js</figcaption>
               </a>
           </div>
@@ -116,8 +116,15 @@
       </main>
     </div>
   </div>
-  <footer class="footer-bar">
-    <h1>Me acompanhe nas redes sociais</h1>
+  <footer id="contato" class="footer-bar">
+    <div class="buttom-top">
+      <h1>Me acompanhe nas redes sociais</h1>
+      <a href="#top"
+      title="Go to top!"
+      >
+        <img src="assets/top.png" alt="to top icon">
+      </a>
+  </div>
     <section class="footer-divisor">
       <ul class="footer-icon-links">
         <li>
@@ -172,5 +179,4 @@
     </div>
   </footer>
 </body>
-
 </html>
