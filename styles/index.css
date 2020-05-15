@@ -171,13 +171,14 @@ body {
 .footer-divisor {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px #ccc solid;
-  padding-bottom: 15px;
+  padding: 15px 10px;
 }
 
 .footer-icon-links {
-  margin-top: 20px;
+  width: 50%;
   list-style: none;
+  border-right: 0.5px #ccc solid;
+  margin-right: 5px;
 }
 .footer-icon-links a {
   text-decoration: none;
@@ -186,8 +187,10 @@ body {
   max-width: 30px;
 }
 .footer-list {
-  margin-top: 20px;
+  border-left: 0.5px #ccc solid;
+  padding-left: 15px;
   list-style-type: square;
+  width: 50%;
 }
 .footer-bottom {
   margin-top: 10px;
@@ -220,12 +223,16 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(1, 1, 1, 0.2);
+  /* rgb(130, 2, 177) */
   font-size: 3.5em;
   text-align: center;
   letter-spacing: 0em;
   background: rgba(148, 90, 195);
   color: whitesmoke;
+}
+.buttom-top a:hover {
+  background: rgba(148, 90, 195, 0.6);
 }
 .buttom-top img {
   width: 70px;
